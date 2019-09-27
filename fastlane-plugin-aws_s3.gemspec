@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'aws-sdk', '2.3'
-  spec.add_dependency 'apktools', 'https://github.com/omundodebob/apktools'
+  spec.add_dependency 'https://github.com/omundodebob/apktools'
   spec.add_dependency 'mime-types', '3.1'
 
   spec.add_development_dependency 'pry'
